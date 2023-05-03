@@ -1,0 +1,9 @@
+.directions__course-info {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.directions__course-info:last-child {
+  border-bottom: 0;
+}

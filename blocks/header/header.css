@@ -1,0 +1,7 @@
+.header {
+  width: 320px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}

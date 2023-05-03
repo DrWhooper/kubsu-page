@@ -1,0 +1,48 @@
+.teacher__btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 10px;
+	margin: 5px 7px 0px 99px;
+	outline: none;
+	border: none;  
+	border-radius: 10px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #1a73e8;
+	position: relative;
+	overflow:hidden;
+	vertical-align: top;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation; 
+	z-index: 1;
+}
+.teacher__btn span{
+	position: absolute;
+	background: #fff;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	pointer-events: none;
+	animation: btn_ripples 0.6s linear infinite;
+}
+
+.teacher__btn:hover {
+	box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
+	background-color: #297be6;
+}
+.teacher__btn:active {
+	box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 2px 6px 2px rgb(26 115 232 / 30%);
+	background-color: #1a73e8 !important;
+}
+.teacher__btn:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.teacher__btn:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}

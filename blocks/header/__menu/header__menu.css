@@ -1,0 +1,5 @@
+.header__menu {
+  position: relative;
+  z-index: 2;
+  left: -80px;
+}

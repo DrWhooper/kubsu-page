@@ -1,0 +1,7 @@
+.link__list-elem {
+  margin-bottom: 19px;
+}
+
+.link__list-elem:last-child {
+  margin-bottom: 0;
+}

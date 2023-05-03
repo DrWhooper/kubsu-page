@@ -1,0 +1,11 @@
+.footer__box {
+  display: flex;
+  width: 320px;
+  padding-top: 27px;
+  padding-left: 15px;
+}
+
+.footer__box:last-of-type {
+  padding-top: 10px;
+  padding-bottom: 28px;
+}
